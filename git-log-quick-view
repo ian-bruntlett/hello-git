@@ -2,5 +2,6 @@
 # command to show short name commit ids, date, time, and subject
 # any parameters passed to this shell scriptare passed on to git log
 # e.g. use -3 to see the 3 most recent commits
+# or -3 -p to see the changes made by the last 3 commits
 #git log --abbrev-commit --pretty=format="%h %cs %s"
-git log --pretty='format:%cd %s' --date=format:'%Y-%m-%d %H:%M:%S' $@
+git log --pretty='format:%cd %s' --date=format:'%Y-%m-%d %H:%M:%S' "$@"
