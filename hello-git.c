@@ -11,9 +11,9 @@ int main(int argc, char *argv[])
   else if ( argc>=2 && 0==strcasecmp(argv[1],"German"))
     printf("Hallo, Welt from %s\n",argv[0]);
   else if ( argc>=2 && 0==strcasecmp(argv[1],"Welsh"))
-    printf("Hallo, Welt from %s\n",argv[0]);
-  else
     printf("Helo, Fyd from %s\n",argv[0]);
+  else
+    printf("Hello, World from %s\n",argv[0]);
   return 0;
 }
 
