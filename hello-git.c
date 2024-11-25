@@ -11,6 +11,8 @@ static void greeting(char *pProgramme, char *pLanguage)
     printf("Hallo, Welt from %s\n",pProgramme);
   else if ( 0==strcasecmp(pLanguage,"Welsh"))
     printf("Helo, Fyd from %s\n",pProgramme);
+  else if ( 0==strcasecmp(pLanguage,"Geordie"))
+    printf("Hallow Woorld - Rhymes with cow and bor(l)ked from %s\n",pProgramme);
   else
     printf("Hello, World from %s\n",pProgramme);
 }
