@@ -1,6 +1,5 @@
 // hello-git.c, an experiment in using git to handle C programmes.
-// ... and  to see if backup files are respected via .gitignore file.
-// but emacs doesn't appear to make backup files any more.
+
 #include <stdio.h>
 #include <string.h> // to get strcasecmp(). For Windows use stricmp()
 
@@ -17,8 +16,7 @@ static void greeting(char *pProgramme, char *pLanguage)
 }
 
 int main(int argc, char *argv[])
-{
-  
+{  
   for  ( int index=1; index < argc; ++index )
     {  greeting(argv[0],argv[index]); }
    
