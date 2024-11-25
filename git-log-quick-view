@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# command to show short name commit ids, date, and subject
+git log --abbrev-commit --pretty=format="%h %cs %s"
